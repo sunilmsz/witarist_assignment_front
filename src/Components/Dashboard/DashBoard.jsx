@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from "react";
 import { TodoCreate } from "../Todo/TodoCreate";
 import { Todo } from "../Todo/Todo";
-import "./dashBoard.css";
 import { MySocket } from "../../utils/socketService";
 
 export function Dashboard() {

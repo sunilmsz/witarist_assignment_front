@@ -1,0 +1,24 @@
+.dashboard {
+    padding: 2rem;
+}
+.dashboard-menu {
+    display: flex; 
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+}
+
+.dashboard-menu-item {
+    width: 100%;
+    font-size: 2rem;
+    padding-left : 1rem;
+    cursor: pointer;
+}
+
+.menu-item-selected {
+    border-bottom : 1px solid black;
+}
+
+
+.other-user-input > * {
+    margin-right :1rem;
+}
