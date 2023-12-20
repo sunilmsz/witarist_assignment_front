@@ -1,0 +1,25 @@
+.todo-item-block {
+    /* border : 1px solid black; */
+    padding-block: 1rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.todo-item-block:hover {
+    box-shadow: 0px 0px 5px gray;
+}
+
+.actions {
+    position: absolute;
+    right :1rem;
+    top: 1rem;
+    font-size: 3rem;
+}
+
+.actions > *  {
+    margin-right : 1rem;
+    cursor: pointer;
+}

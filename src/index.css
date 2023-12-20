@@ -1,0 +1,89 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+
+html {
+  font-size: 10px;
+  height: 100%;
+}
+
+body {
+  height: 100%; 
+}
+
+#root {
+  height: 100%;
+}
+
+.border-100 {
+  border : 1px solid black;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.flow > * + *{
+   margin-top: 2rem;
+}
+
+.flow-right > *+* {
+  margin-right: 1rem;
+}
+
+.centered-child {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.app-container {
+  box-shadow: 0 0 4px 2px gray ;
+  padding: 3rem;
+  min-height: 40rem;
+  min-width: 50rem;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.app-input {
+  max-width: 80%;
+  width : 25rem;
+  height: 4rem;
+  border-radius: .5rem;
+  padding-left: 1rem;
+}
+
+.heading-100 {
+   font-size: 2.5rem;
+   font-weight: 700;
+   line-height: 1.1;
+}
+
+.button  {
+  padding : 1em 2em;
+  border: none;
+  border-radius: 100vmax;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity : 0.5
+}

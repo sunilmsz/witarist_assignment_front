@@ -1,0 +1,9 @@
+.todo-priority-select {
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
+    border: 1px solid green;
+}
+
+.todo-input {
+    width : 20rem!important;
+}
